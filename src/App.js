@@ -1,4 +1,5 @@
 import React from 'react';
+import Table from './components/Table';
 import './style.css';
 
 export default function App() {
@@ -29,6 +30,8 @@ export default function App() {
           configuration.
         </li>
       </ul>
+
+      <Table />
     </div>
   );
 }
